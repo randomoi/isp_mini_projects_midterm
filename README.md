@@ -1,30 +1,38 @@
 
 # Intelligent Signal Processing - Mini projects - Midterm
 
-### Student: https://github.com/randomoi/
-
-*Please note that each project must be opened individually. *
+*Please note that each project must be opened individually.*
 ***
 
-### Project Name: EX1 Midterm - If you can dream...
+## Table of Contents
+1. [EX1 Midterm - If you can dream...](#ex1-midterm---if-you-can-dream)
+2. [EX2 Midterm - Voice Recognition of Colors and Shapes](#ex2-midterm---voice-recognition-of-colors-and-shapes)
+3. [EX3 Midterm - Decoding and Encoding Messages](#ex3-midterm---decoding-and-encoding-messages)
+4. [EX4 Midterm - Speech Recognition Systems](#ex4-midterm---speech-recognition-systems)
+    - [Project Setup and Installation](#project-setup-and-installation)
+    - [Imported Libraries](#imported-libraries)
+    - [Credit](#credit)
+
+
+### **EX1 Midterm - If you can dream...**
 
 - Open project in VS Code (must be opened separately from other projects)
 - Select **sketch.js**
 - Press **Go Live** at the bottom of the screen. You will be re-directed to browser to view the project.
 
-### Project Name: EX2 Midterm - Voice Recognition of Colors and Shapes
+### **EX2 Midterm - Voice Recognition of Colors and Shapes**
 
 - Open project in VS Code (must be opened separately from other projects)
 - Select **sketch.js**
 - Press **Go Live** at the bottom of the screen. You will be re-directed to browser to view the project.
 
-### Project Name: EX3 Midterm - Decoding and Encoding Messages
+### **EX3 Midterm - Decoding and Encoding Messages**
 
 - Please use Jupyter Notebooks to run the project. 
 
-### Project Name: Exercise 4 Midterm - Speech Recognition Systems
+### **EX4 Midterm - Speech Recognition Systems**
 
-**Models:**
+**Models**
 
 	DeepSpeech English Model
 	DeepSpeech Spanish Model
@@ -34,33 +42,11 @@
 
 	PocketSphinx English Model
 
-### !!Important!!
+### **Project Setup and Installation**
 
 - The project was developed on MacOS and tested in Terminal.
 
 - The ASR Comparison File takes a long time to load due to PocketSphinx.
-
-
-#### Credit: 
-- Sentence 1 quote by Norman Vincent Peale: https://www.brainyquote.com/quotes/norman_vincent_peale_130593?src=t_inspirational
-- Sentence 2 quote by Lily Tomlin: https://philosiblog.com/2012/07/09/i-always-wanted-to-be-somebody-but-now-i-realize-i-should-have-been-more-specific/
-
-**Imported libraries:**
-
-    from google.cloud import speech
-    from pocketsphinx import LiveSpeech
-    from scipy.io import wavfile
-    from scipy.signal import butter, lfilter
-    from tabulate import tabulate
-    import deepspeech
-    import noisereduce as nr
-    import numpy as np
-    import string
-    import wave
-
-=====================================================
-
-Project Setup and Installation using Terminal:
 
 1. Unzip the project folder
 
@@ -106,8 +92,23 @@ Project Setup and Installation using Terminal:
     
         python asr_evaluation.py
 
-=====================================================
+### **Imported Libraries**
 
-To save new installed programs:
+    from google.cloud import speech
+    from pocketsphinx import LiveSpeech
+    from scipy.io import wavfile
+    from scipy.signal import butter, lfilter
+    from tabulate import tabulate
+    import deepspeech
+    import noisereduce as nr
+    import numpy as np
+    import string
+    import wave
 
-pip freeze > requirements.txt
+### **Credit**
+
+- Sentence 1 quote by Norman Vincent Peale: [BrainyQuote](https://www.brainyquote.com/quotes/norman_vincent_peale_130593?src=t_inspirational)
+- Sentence 2 quote by Lily Tomlin: [Philosiblog](https://philosiblog.com/2012/07/09/i-always-wanted-to-be-somebody-but-now-i-realize-i-should-have-been-more-specific/)
+
+
+*Author: https://github.com/randomoi/*
