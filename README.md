@@ -4,7 +4,7 @@
 *Please note that each project must be opened individually.*
 ***
 
-## Table of Contents
+## **Table of Contents**
 1. [EX1 Midterm - If you can dream...](#ex1-midterm---if-you-can-dream)
 2. [EX2 Midterm - Voice Recognition of Colors and Shapes](#ex2-midterm---voice-recognition-of-colors-and-shapes)
 3. [EX3 Midterm - Decoding and Encoding Messages](#ex3-midterm---decoding-and-encoding-messages)
